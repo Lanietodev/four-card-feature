@@ -41,7 +41,7 @@ p {
   flex-direction: column;
 }
 .card {
-  width: 290px;
+  width: 16.5rem;
   padding: 10px 25px;
   background: white;
   border-radius: 4px 4px 9px 9px;
@@ -69,11 +69,6 @@ p {
   border-top: 3px solid hsl(212, 86%, 64%);
 }
 @media (min-width:992px){
-  body{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
   .main{
    display: flex;
   flex-direction: column;
