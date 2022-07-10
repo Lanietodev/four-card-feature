@@ -11,7 +11,6 @@ body {
 }
 .main {
   background: hsl(0, 0%, 98%);
-  width: 340px;
 }
 .header {
   text-align: center;
@@ -37,7 +36,10 @@ p {
   justify-content: center;
   align-items: center;
 }
-
+.column{
+  display: flex;
+  flex-direction: column;
+}
 .card {
   width: 290px;
   padding: 10px 25px;
@@ -67,8 +69,22 @@ p {
   border-top: 3px solid hsl(212, 86%, 64%);
 }
 @media (min-width:750px){
+  body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+  .main{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   .container{
     display: flex;
     flex-direction: row;
-  }
+}
+  .header p{
+   width:500px;
+}
 }
